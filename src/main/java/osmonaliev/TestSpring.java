@@ -30,7 +30,7 @@ public class TestSpring {
 //        musicPlayer1.playMusic();
 
         Computer computer = context.getBean("computer",Computer.class);
-        System.out.println(computer.toString());
+        System.out.println(computer);
         context.close();
     }
     }
