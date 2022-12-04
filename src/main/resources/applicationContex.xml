@@ -8,5 +8,5 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
     <context:component-scan base-package="osmonaliev" />
 
-
+<context:property-placeholder location="classpath:MusicPlayer.properties"/>
 </beans>
